@@ -11,6 +11,7 @@ Usage:
 import json
 import logging
 import os
+import re
 from pathlib import Path
 
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
@@ -118,14 +119,18 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
     # --- Our Services ---
     if data == "services":
-        lines = [f"🛠️ *Our Services:*"]
+        lines = [f"🛠️ <b>Our Services:</b>"]
         for i, service in enumerate(config["services"], 1):
-            lines.append(f"{i}\\. {service}")
+            # Escape < and > in service text for HTML parse mode
+            safe = service.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            # Convert *text* to <b>text</b> for bold
+            safe = re.sub(r"\*(.+?)\*", r"<b>\1</b>", safe)
+            lines.append(f"{i}. {safe}")
         text = "\n".join(lines)
         await query.edit_message_text(
             text=text,
             reply_markup=_back_keyboard(),
-            parse_mode="MarkdownV2",
+            parse_mode="HTML",
         )
         return
 
