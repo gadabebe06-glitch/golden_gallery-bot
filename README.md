@@ -47,7 +47,7 @@ The bot will start polling and respond to `/start` commands.
 - **About Us 🏢** — Shows the business description from `about_text`.
 - **Our Services 🛠️** — Lists services from the `services` array.
 - **Contact Us 📍** — Shows address, phone, and website.
-- **💬 Talk to Human** — Shows a button that opens a direct Telegram chat with the business owner via `t.me/{username}`.
+- **💬 Owner** — Shows a button that opens a direct Telegram chat with the business owner via `t.me/{username}`.
 - Every sub-page has a **⬅ Back to Menu** button.
 
 All visible text is driven by `config.json` — change any string there and the bot updates without touching `bot.py`.
