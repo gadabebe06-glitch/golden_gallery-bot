@@ -1,0 +1,13 @@
+{
+  "business_name": "Golden Gallery",
+  "about_text": "We are *Golden Gallery* — specializing in handcrafted surprise packages for every occasion. Birthdays, anniversaries, and special moments deserve something unforgettable. Each package is carefully curated with cakes, flowers, balloons, music, and more to create the perfect surprise for your loved ones.",
+  "services": [
+    "🥈 *Silver Package* — 5,000 ETB\n  • 1 kg customized cake\n  • 2 medium arranged flowers\n  • 4 postcards\n  • 6 medium sized balloons\n  • 7 self-selected music tracks",
+    "🥇 *Golden Package* — 7,500 ETB\n  • 1.5 kg custom cake\n  • Medium plus arranged flower\n  • Live singer\n  • Candle\n  • 6 medium balloons"
+  ],
+  "contact_address": "DIRE MALL, Dire Dawa, Ethiopia",
+  "contact_phone": "+251 978727648",
+  "contact_website": "https://example.com",
+  "owner_telegram_username": "Gado_Man",
+  "welcome_message": "Hello {first_name} 👋! Welcome to the *{business_name}* Telegram bot. How can I help you today?"
+}
