@@ -54,7 +54,7 @@ def _main_menu_keyboard() -> InlineKeyboardMarkup:
         ],
         [
             InlineKeyboardButton("Contact Us 📍", callback_data="contact"),
-            InlineKeyboardButton("💬 Talk to Human", callback_data="talk_to_human"),
+            InlineKeyboardButton("📞 Contact Owner", callback_data="talk_to_human"),
         ],
     ])
 
@@ -151,20 +151,20 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
     # --- Talk to Human ---
     if data == "talk_to_human":
-        username = config["owner_telegram_username"]
+        owner_id = config.get("owner_telegram_user_id", "1017133229")
         talk_keyboard = InlineKeyboardMarkup([
             [
                 InlineKeyboardButton(
-                    "💬 Chat with us on Telegram",
-                    url=f"https://t.me/{username}",
+                    "📩 Message the Owner",
+                    url=f"tg://user?id={owner_id}",
                 ),
             ],
             [InlineKeyboardButton("⬅ Back to Menu", callback_data="main_menu")],
         ])
         await query.edit_message_text(
             text=(
-                "Click the button below to chat with us directly on Telegram\\!\n\n"
-                "Our team is ready to assist you\\."
+                "Click the button below to chat directly with the owner\\!\n\n"
+                "They will respond to you personally\\."
             ),
             reply_markup=talk_keyboard,
             parse_mode="MarkdownV2",
