@@ -1,6 +1,6 @@
 {
-  "business_name": "St. Mary's Hospital IT Support",
-  "about_text": "The *St. Mary's Hospital IT Support* department keeps our hospital's technology running around the clock. We manage computers, medical record systems (EMR/EHR), networks, email accounts, and all peripheral devices so our clinical and administrative staff can focus on patient care. Our helpdesk is available 24/7 to assist with any IT issue.\n\nPlease submit a support ticket through this bot and our engineers will get back to you as soon as possible.",
+  "business_name": "Sabian General Hospital IT Support",
+  "about_text": "The *Sabian General Hospital IT Support* department keeps our hospital's technology running around the clock. We manage computers, medical record systems (EMR/EHR), networks, email accounts, and all peripheral devices so our clinical and administrative staff can focus on patient care. Our helpdesk is available 24/7 to assist with any IT issue.\n\nPlease submit a support ticket through this bot and our engineers will get back to you as soon as possible.",
   "services": [
     "🖥️ *Hardware Support* — desktops, laptops, and workstations",
     "💿 *Software Support* — installation, updates, and licensing",
@@ -24,11 +24,11 @@
     "High",
     "Critical"
   ],
-  "contact_address": "IT Helpdesk, Administration Building, St. Mary's Hospital, 1000 Main Street",
-  "contact_phone": "+1 (555) 010-5800",
-  "contact_website": "https://stmarys.example.com/it-support",
-  "contact_email": "helpdesk@stmarys.example.com",
+  "contact_address": "IT Helpdesk, Sabian General Hospital",
+  "contact_phone": "",
+  "contact_website": "",
+  "contact_email": "",
   "contact_hours": "24/7 support desk",
-  "owner_telegram_user_id": "1017133229",
+  "owner_telegram_user_id": "1053764956",
   "welcome_message": "Hello {first_name} 👋! Welcome to the *{business_name}* bot. How can our IT team help you today?"
 }
