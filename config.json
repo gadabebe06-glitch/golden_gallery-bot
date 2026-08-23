@@ -1,14 +1,34 @@
 {
-  "business_name": "Golden Gallery",
-  "about_text": "አኛ *Golden Gallery* — በማንኛዉም ፕሮግራሞች ላይ surprise package ለ ልድት፣ልምርቃት፣ለፈቅር መግልጫ አንዲሁም ለተለያዩ ፕሮግራሞች የ surprise package አናቀርባለን .",
+  "business_name": "St. Mary's Hospital IT Support",
+  "about_text": "The *St. Mary's Hospital IT Support* department keeps our hospital's technology running around the clock. We manage computers, medical record systems (EMR/EHR), networks, email accounts, and all peripheral devices so our clinical and administrative staff can focus on patient care. Our helpdesk is available 24/7 to assist with any IT issue.\n\nPlease submit a support ticket through this bot and our engineers will get back to you as soon as possible.",
   "services": [
-    "🥈 *Silver Package* — 5,000 ETB\n  • 1 kg customized cake\n  • 2 medium arranged flowers\n  • 4 postcards\n  • 6 medium sized balloons\n  • 7 self-selected music tracks",
-    "🥇 *Golden Package* — 7,500 ETB\n  • 1.5 kg custom cake\n  • Medium plus arranged flower\n  • Live singer\n  • Candle\n  • 6 medium balloons",
-    "💎 *Premium Package* — 18,000 ETB\n  • Custom package details coming soon\n  • Contact owner for full details"
+    "🖥️ *Hardware Support* — desktops, laptops, and workstations",
+    "💿 *Software Support* — installation, updates, and licensing",
+    "🌐 *Network & Connectivity* — Wi-Fi, VPN, and LAN issues",
+    "📧 *Email & Account Issues* — password resets and mailbox access",
+    "🏥 *EMR/EHR System Support* — electronic medical records systems",
+    "🖨️ *Printer & Peripheral Issues* — printers, scanners, and accessories"
   ],
-  "contact_address": "DIRE MALL 1ኛ ፎቅ, Dire Dawa, Ethiopia",
-  "contact_phone": "+251 978727648",
-  "contact_website": "https://www.Golden surprise.com",
+  "ticket_categories": [
+    "Hardware",
+    "Software",
+    "Network",
+    "Email/Account",
+    "EMR/EHR",
+    "Printer",
+    "Other"
+  ],
+  "ticket_priorities": [
+    "Low",
+    "Medium",
+    "High",
+    "Critical"
+  ],
+  "contact_address": "IT Helpdesk, Administration Building, St. Mary's Hospital, 1000 Main Street",
+  "contact_phone": "+1 (555) 010-5800",
+  "contact_website": "https://stmarys.example.com/it-support",
+  "contact_email": "helpdesk@stmarys.example.com",
+  "contact_hours": "24/7 support desk",
   "owner_telegram_user_id": "1017133229",
-  "welcome_message": "ሰላም {first_name} 👋! አንኮን ወደ  *{business_name}* Telegram bot በደህና መጡ. ምን ልርዳዎተ?"
+  "welcome_message": "Hello {first_name} 👋! Welcome to the *{business_name}* bot. How can our IT team help you today?"
 }
