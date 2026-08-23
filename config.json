@@ -24,10 +24,10 @@
     "High",
     "Critical"
   ],
-  "contact_address": "IT Helpdesk, Sabian General Hospital",
-  "contact_phone": "",
+  "contact_address": "IT Helpdesk, Sabian General Hospital, Dire Dawa City",
+  "contact_phone": "+251919299709",
   "contact_website": "",
-  "contact_email": "",
+  "contact_email": "info@sabiyanhospital.com",
   "contact_hours": "24/7 support desk",
   "owner_telegram_user_id": "1053764956",
   "welcome_message": "Hello {first_name} 👋! Welcome to the *{business_name}* bot. How can our IT team help you today?"
